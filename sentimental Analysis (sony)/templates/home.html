@@ -1,0 +1,58 @@
+
+<html>
+<body bgcolor="87CEEB">
+<br>
+<table>
+<tr>
+<th>
+<div class="container">
+	<section class="jumbotron text-center">
+	<div class="row">
+		<div class="col-sm-6">
+		<h1 class="jumbotron-heading">Sentiment Analysis </h1>
+          <p class="lead text-black">
+            <h3><b>Pavan Kumar</b></h3>
+            <p>
+          Machine Learning and Data Science enthusiast,<br/>programmer and always willing to learn and work across<br/> new technologies and domains.</p></p>
+          <p>
+            <a href="https://github.com/PavankumarElango" class="btn btn-primary my-2">Follow me on GitHub</a>
+            <a href="https://www.linkedin.com/in/pavankumar-e-aab30b74/" class="btn btn-secondary my-2">Linkedin</a>
+          </p>
+         
+		
+         
+		</div>
+
+		<div class="col-sm-6">
+			<div class="container">
+				<form method="POST" action="/sentiment">
+				<textarea name="message" class="form-control" cols="8" rows="8"></textarea>
+				<br>
+				<button class="btn btn-success" type="submit">Analysis</button>
+
+				<button style="margin-left: 10px;" class="btn btn-danger" type="reset">Reset</button>
+
+			</form>
+			<br>
+
+			<div class="container">
+				{{ prediction }}
+			</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+</div>
+</th>
+<th>
+
+
+
+
+</th>	
+</tr>
+</table>
+</body>	
+</html>
